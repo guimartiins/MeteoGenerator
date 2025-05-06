@@ -1,21 +1,9 @@
 # MeteoGenerator
 
-**TODO: Add description**
+This is a application that consumes the Meteo API and calculate the max daily temperature average of 3 states in Brazil, São Paulo, Belo Horizonte and Curitiba.
 
-## Installation
+## Running
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `meteo_generator` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:meteo_generator, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/meteo_generator>.
-
+- Ensure you have `elixir` and `erlang` installed
+- Run `mix deps.get`
+- Run `mix run`
