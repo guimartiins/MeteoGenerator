@@ -12,6 +12,8 @@ defmodule MeteoGenerator do
       :world
 
   """
+  url = "https://api.open-meteo.com/v1/forecast"
+
   def hello do
     :world
   end
